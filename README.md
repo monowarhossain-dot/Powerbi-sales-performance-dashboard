@@ -24,6 +24,8 @@ Click below to download the report:
 
 ➡ *[Download PBIX File](https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/SALES%20DASHBOARD%20POWER%20BI.pbix )*
 
+https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/power%20bi%20report.pbix%20().pbix
+
 ---
 
 ## 📝 Project Overview
