@@ -13,6 +13,8 @@ Below is a preview of the dashboard included in this project:
 
 ![https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/Screenshot%20(361).png)
 
+https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/Screenshot%20(362).png
+
 
 ---
 
