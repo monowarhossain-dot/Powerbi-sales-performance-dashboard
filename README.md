@@ -19,7 +19,7 @@ Below is a preview of the dashboard included in this project:
 
 Click below to download the report:
 
-➡ *[Download PBIX File]( )*
+➡ *[Download PBIX File](https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/SALES%20DASHBOARD%20POWER%20BI.pbix )*
 
 ---
 
