@@ -11,7 +11,8 @@ It highlights *monthly revenue trends, **state-wise performance, and **key busin
 
 Below is a preview of the dashboard included in this project:
 
-![Dashboard Preview](assets/dashboard-screenshot.png)
+![https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/Screenshot%20(361).png)
+
 
 ---
 
