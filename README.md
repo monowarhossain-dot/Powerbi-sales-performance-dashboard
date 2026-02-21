@@ -1,50 +1,45 @@
-# Powerbi-sales-performance-dashboard
-Power BI Dashboard analyzing sales and performance metrics -includes PBIX file, screenshot previews, data schema, and documentation.
-# 📊 Power BI -Beverage Brand Sales Dashboard
+# 📊 Power BI: Strategic Sales & System Performance Dashboard
 
-This repository contains an interactive *Power BI Dashboard* analyzing the sales performance of a beverage brand.  
-It highlights *monthly revenue trends, **state-wise performance, and **key business metrics* using clean visuals and optimized DAX calculations.
+> **Data as a lens for strategic decision-making and understanding market ecosystems.**
 
----
-
-## 🖼 Dashboard Preview
-
-Below is a preview of the dashboard included in this project:
-
-![https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/Screenshot%20(361).png)
-
-https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/Screenshot%20(362).png
-
+This repository contains an interactive **Power BI Dashboard** that translates complex sales and operational data for a beverage brand into clear, actionable insights. Designed with a focus on usability and strategic alignment, it empowers stakeholders to visualize performance trends, identify market friction, and make informed, data-driven decisions.
 
 ---
 
-## 🔗 Download Report (.pbix)
+## 🎯 The Strategic Value 
 
-Click below to download the report:
+In service design and business strategy, data visualization is about reducing cognitive load for decision-makers. This dashboard goes beyond raw numbers to help leaders quickly understand the overarching business system:
 
-➡ *[Download PBIX File](https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/SALES%20DASHBOARD%20POWER%20BI.pbix )*
-
-https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/power%20bi%20report.pbix%20().pbix
-
----
-
-## 📝 Project Overview
-
-This dashboard is designed to help business leaders and recruiters quickly understand:
-
-- 📅 *Sum of Revenue by Month Name*  
-- 🗺 *Sum of Revenue by State*  
-- 📈 *Overall performance trends*  
-- 🏷 *Top categories and SKUs*  
-- 🎯 *KPI comparison vs targets*  
-- 🧠 *Insightful design using DAX + Power Query*
-
-
+- 📅 **Behavioral & Revenue Trends:** Visualizing monthly growth and seasonal shifts.
+- 🗺️ **Geographic Ecosystems:** State-wise performance mapping to identify regional friction or opportunities.
+- 🎯 **Strategic Alignment:** KPI comparison vs. targets to ensure the system is operating optimally.
+- 🧠 **Information Architecture:** Clean visual hierarchy powered by optimized DAX and Power Query.
 
 ---
 
-## 🧮 Key DAX Measures Used
+## 🖼️ Dashboard Preview
 
+Below is a preview of the dashboard's user interface, focusing on clarity and insight generation:
+
+![Dashboard Preview 1](https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/Screenshot%20(361).png)
+![Dashboard Preview 2](https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/Screenshot%20(362).png)
+
+---
+
+## 🔗 Interactive Report (.pbix)
+
+Experience the full interactive dashboard and underlying data model:
+
+➡ **[Download the Strategic PBIX File](https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/SALES%20DASHBOARD%20POWER%20BI.pbix)**
+*(Alternate link: [Report File](https://github.com/monowarhossain-dot/Powerbi-sales-performance-dashboard/blob/main/power%20bi%20report.pbix%20().pbix))*
+
+---
+
+## 🧮 System Architecture & Data Modeling
+
+Robust service solutions require a solid backend. Below is the structural logic and DAX syntax driving the dashboard's intelligence.
+
+### Key Analytical Measures (DAX)
 ```DAX
 Total Revenue = SUM( Sales[Revenue] )
 
@@ -69,24 +64,3 @@ RETURN
 IF( ISBLANK(PrevMonthRevenue), BLANK(),
     DIVIDE( [Total Revenue] - PrevMonthRevenue, PrevMonthRevenue )
 )
-Fact Table:
-- Sales
-
-Dimension Tables:
-- Date
-- Product
-- Category
-- Region (State)
-
-Relationships:
-Date[Date] → Sales[Date]
-Product[ProductID] → Sales[ProductID]
-Region[State] → Sales[State]
-
-## Author
-*Md. Monowar Hossain*
-Aspiring Data Analyst | Research Enthusiast | MBA in Marketing
-Specializing in Data Analytics, Tableau, Power BI & Digital Marketing
-
-- Email: monowar.bba@gmail.com  
-- LinkedIn: https://www.linkedin.com/in/monowar-hossain-278460225
